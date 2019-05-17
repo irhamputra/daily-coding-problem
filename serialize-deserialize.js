@@ -40,7 +40,7 @@ function serializer(node, output) {
   serializer(node.right, output);
 }
 
-// Seserialize
+// Deserialize
 // convert string to Tree Node
 function deserialize(data) {
   data = data.split(",");
