@@ -63,5 +63,5 @@ function deserialize(data) {
 }
 
 const data = serialize(one);
-console.log(data); // serialize
+console.log(data); // output "1,2,#,#,3,4,#,#,5,#,#"
 console.log(deserialize(data));
